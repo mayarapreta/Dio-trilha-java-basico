@@ -1,0 +1,68 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch AboutMe2",
+      "request": "launch",
+      "mainClass": "AboutMe2",
+      "projectName": "java-terminal_ab933ada"
+    },
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ]
+    },
+    {
+      "name": "Java Console App",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ],
+      "externalConsole": true
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch AboutMe",
+      "request": "launch",
+      "mainClass": "AboutMe",
+      "args": [
+        "Fernanda ",
+        "santos",
+        "45",
+        "1.58"
+      ],
+      "projectName": "java-terminal_ab933ada"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinhaClasse",
+      "request": "launch",
+      "mainClass": "MinhaClasse",
+      "projectName": "java-terminal_ab933ada"
+    }
+  ]
+}
